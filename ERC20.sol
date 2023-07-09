@@ -24,8 +24,8 @@ contract ERC20 is IERC20 {
         _;
     }
 
-    string public constant name = "SIRILUX"; 
-    string public constant symbol = "SIRI"; 
+    string public constant name = "KIRAN"; 
+    string public constant symbol = "KRN"; 
     uint8 public constant decimals = 18; 
     function transfer(address recipient, uint amount) external returns (bool) {
         require(balanceOf[msg.sender] >= amount, "Insufficient Balance");
